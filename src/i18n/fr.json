@@ -1,0 +1,213 @@
+{
+    "nav": {
+      "start": "Commencer",
+      "login": "Connexion",
+      "register": "S'inscrire",
+      "logout": "Déconnexion",
+      "profile": "Profil"
+    },
+    "home": {
+      "badge": "🧬 Basé sur les neurosciences adaptatives",
+      "headline": "Découvre ton spectre",
+      "subline": "Un questionnaire qui ne juge pas — il révèle. 9 piliers fondamentaux pour un portrait intérieur précis.",
+      "cta": "🚀 Faire le test gratuit",
+      "sub": "✨ 45 questions · ~5 minutes · Résultats instantanés",
+      "stats": {
+        "pillars": "Piliers analysés",
+        "questions": "Questions",
+        "avatars": "Avatars"
+      }
+    },
+    "profile": {
+      "yourAvatar": "Ton Avatar",
+      "activity": "Activité",
+      "pillarHighlights": "Points clés des piliers",
+      "quickActions": "Actions rapides",
+      "freePlan": "Plan gratuit",
+      "signOut": "Se déconnecter",
+      "strongest": "💚 Le plus fort",
+      "toDevelop": "🔧 À développer",
+      "retakeQuiz": "Refaire le quiz gratuit",
+      "viewResults": "Voir les résultats gratuits",
+      "premiumQuiz": "Quiz Premium",
+      "unlockPremium": "Débloquer Premium",
+      "premiumReport": "Rapport Premium",
+      "subscription": "Abonnement",
+      "yearsOld": "ans",
+      "yes": "Oui",
+      "no": "Non",
+      "freeQuestionsCount": "45 questions · ~5 min",
+      "latestFreeTest": "Ton dernier test gratuit",
+      "deepQuestions": "198 questions approfondies",
+      "seePlans": "À partir de 1,99 € · Voir les offres →",
+      "fullAnalysis": "Ton analyse complète",
+      "managePlan": "Gérer ton abonnement",
+      "viewPlans": "Voir les offres et tarifs",
+      "editProfile": "Modifier le profil",
+      "editButton": "Modifier le profil",
+      "cancel": "Annuler",
+      "profilePicture": "Photo de profil",
+      "emailLabel": "Email",
+      "newPassword": "Mot de passe",
+      "passwordPlaceholder": "Entrer un nouveau mot de passe…",
+      "saveChanges": "Enregistrer les modifications",
+      "saving": "Enregistrement…",
+      "saveSuccess": "Profil mis à jour !",
+      "freeQuestions": "Questions gratuites",
+      "pillarsExplored": "Piliers explorés"
+    },
+    "login": {
+      "title": "Bon retour",
+      "subtitle": "Connecte-toi pour accéder à tes résultats",
+      "email": "Adresse email",
+      "password": "Mot de passe",
+      "submit": "Se connecter",
+      "noAccount": "Pas de compte ?",
+      "register": "S'inscrire",
+      "or": "ou"
+    },
+    "register": {
+      "title": "Créer un compte",
+      "subtitle": "Rejoins des milliers de personnes qui se découvrent",
+      "name": "Nom complet",
+      "email": "Adresse email",
+      "password": "Mot de passe",
+      "submit": "Créer un compte",
+      "haveAccount": "Déjà un compte ?",
+      "login": "Se connecter",
+      "privacy": "🔒 Tes données restent privées"
+    },
+    "onboard": {
+      "title": "Bienvenue !",
+      "subtitle": "Avant de commencer, dis-nous quelques mots sur toi.",
+      "name": "Ton prénom",
+      "namePlaceholder": "Ex. Sophie",
+      "age": "Ton âge",
+      "agePlaceholder": "Ex. 32",
+      "submit": "Commencer le test →",
+      "privacy": "🔒 Tes données restent privées",
+      "email": "Ton adresse email",
+      "emailPlaceholder": "toi@exemple.com",
+      "optional": "optionnel",
+      "consentEmail": "Je souhaite recevoir mon rapport par email",
+      "consentEmailDesc": "Tes résultats seront envoyés directement dans ta boîte mail.",
+      "consentContact": "J'accepte d'être contacté(e) uniquement par ce service",
+      "consentContactDesc": "Pas de spam. Uniquement des mises à jour pertinentes d'EgoXLove.",
+      "emailRequired": "Merci d'entrer ton adresse email.",
+      "consentRequired": "Merci d'accepter les deux cases pour continuer."
+    },
+    "quiz": {
+      "prev": "← Précédent",
+      "next": "Suivant →",
+      "finish": "Voir les résultats →",
+      "question": "Question",
+      "of": "sur",
+      "free": "GRATUIT",
+      "premium": "PREMIUM",
+      "options": {
+        "notAtAll": "Pas du tout",
+        "alittle": "Un peu",
+        "moderately": "Modérément",
+        "alot": "Beaucoup",
+        "totally": "Totalement"
+      }
+    },
+    "results": {
+      "title": "Ton diagnostic EGO vs AMOUR",
+      "ego": "🟡 EGO",
+      "love": "💜 AMOUR",
+      "pillarsTitle": "📊 Analyse des piliers",
+      "upsell": {
+        "title": "⭐ Rapport Premium détaillé",
+        "desc": "198 questions approfondies · Citations personnalisées · Recommandations · Plan d'action 30 jours",
+        "feature1": "✅ Analyse des 9 piliers",
+        "feature2": "✅ 27 citations",
+        "feature3": "✅ Plan d'action",
+        "feature4": "✅ Rapport PDF",
+        "cta": "Débloquer — 1,99 €"
+      },
+      "popup": {
+        "title": "Recevoir ton rapport",
+        "desc": "Entre ton email pour recevoir ton rapport de résultats gratuit.",
+        "consent": "Je souhaite recevoir le rapport par email et accepte d'être contacté(e) exclusivement par ce service.",
+        "send": "📧 Envoyer mon rapport",
+        "sending": "Envoi en cours…",
+        "continue": "Continuer à voir les résultats →"
+      },
+      "emailSent": "Rapport envoyé à"
+    },
+    "pillars": {
+      "1": { "icon": "🧭", "name": "Alignement",      "theme": "Cohérence entre pensée, parole et action" },
+      "2": { "icon": "🎭", "name": "Authenticité",    "theme": "Le courage d'être soi-même" },
+      "3": { "icon": "❤️", "name": "Cœur vs Ego",    "theme": "Donner sans rien attendre en retour" },
+      "4": { "icon": "🤝", "name": "Union",            "theme": "Ho'oponopono : pardon et amour" },
+      "5": { "icon": "🧘", "name": "Conscience",      "theme": "La science avec la conscience" },
+      "6": { "icon": "🎁", "name": "Générosité",      "theme": "Donner plus que recevoir" },
+      "7": { "icon": "🙏", "name": "Gratitude",       "theme": "La mémoire du cœur" },
+      "8": { "icon": "🦉", "name": "Sagesse",          "theme": "Savoir que l'on ne sait pas" },
+      "9": { "icon": "☮️", "name": "Paix",             "theme": "La paix commence par un sourire" }
+    },
+    "avatars": {
+      "awakened": {
+        "icon": "💎",
+        "name": "L'ÊTRE ÉVEILLÉ",
+        "range": "EGO < 30% · AMOUR > 70%",
+        "desc": "Tu vis en profond alignement avec ton essence. Tes actions sont guidées par l'amour inconditionnel, une conscience éveillée et une cohérence intérieure. Tu es une source d'inspiration pour ton entourage.",
+        "quote": "\"Sois le changement que tu veux voir dans le monde.\" — Gandhi"
+      },
+      "awakening": {
+        "icon": "🌱",
+        "name": "L'ÊTRE EN ÉVEIL",
+        "range": "EGO 30–50% · AMOUR 50–70%",
+        "desc": "Ton cœur guide tes pas mais l'ego intervient encore parfois. Tu es sur le chemin de l'éveil intérieur avec une conscience croissante. Tes zones de tension sont tes plus beaux terrains de croissance.",
+        "quote": "\"La croissance est inconfortable. C'est là que la magie opère.\" — Anonyme"
+      },
+      "tension": {
+        "icon": "⚡",
+        "name": "L'ÊTRE EN TENSION",
+        "range": "EGO 50–70% · AMOUR 30–50%",
+        "desc": "Tu ressens une tension intérieure entre ton ego protecteur et ton aspiration profonde à l'amour et à l'authenticité. Cette traction est un signal fort : il est temps d'aller vers l'intérieur pour choisir consciemment.",
+        "quote": "\"Entre le stimulus et la réponse, il y a un espace. Dans cet espace réside notre liberté.\" — V. Frankl"
+      },
+      "dominant": {
+        "icon": "🔥",
+        "name": "L'EGO DOMINANT",
+        "range": "EGO > 70% · AMOUR < 30%",
+        "desc": "L'ego occupe une grande place dans ta vie. Tes peurs, tes défenses et ton besoin de contrôle colorent tes relations et tes choix. Ce n'est pas un jugement — c'est une invitation à t'approcher de toi-même avec bienveillance et courage.",
+        "quote": "\"Ce que tu refuses de voir en toi, la vie continuera de te le montrer.\" — Carl Jung"
+      }
+    },
+    "premium": {
+      "reportTitle": "Rapport Premium",
+      "reportSubtitle": "Analyse détaillée · 9 piliers · Recommandations personnalisées",
+      "pillarAnalysis": "📊 Analyse des piliers",
+      "priorities": "🎯 Tes 3 priorités de développement",
+      "actionPlan": "📅 Plan d'action 30 jours",
+      "daily": "🌅 Quotidien",
+      "weekly": "📆 Hebdomadaire",
+      "monthly": "🗓️ Mensuel",
+      "levels": {
+        "strong": "🟢 FORT",
+        "medium": "🟡 EN DÉVELOPPEMENT",
+        "weak": "🔴 À TRAVAILLER"
+      },
+      "actionItems": {
+        "daily1": "🌅 Matin : 3 gratitudes dans ton journal",
+        "daily2": "🧘 5 min de respiration consciente avant de commencer ta journée",
+        "daily3": "🌙 Soir : identifier 1 moment d'alignement aujourd'hui",
+        "weekly1": "📓 Relire ton journal — repérer les schémas récurrents",
+        "weekly2": "💬 Avoir une conversation authentique que tu évitais",
+        "weekly3": "🎁 Un acte de générosité anonyme",
+        "monthly1": "📊 Relire ton rapport EgoXLove et mesurer ton évolution",
+        "monthly2": "🎯 Fixer une intention par pilier à développer",
+        "monthly3": "🤝 Partager tes progrès avec une personne de confiance"
+      }
+    },
+    "footer": "© 2026 EgoXLove — Tous droits réservés",
+    "sections": {
+      "A": "Origines",
+      "B": "Réactions",
+      "C": "Capacité à changer",
+      "D": "Impacts sur ta vie"
+    }
+  }

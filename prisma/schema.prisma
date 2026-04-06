@@ -1,0 +1,139 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Get a free hosted Postgres database in seconds: `npx create-db`
+
+generator client {
+  provider = "prisma-client"
+  output   = "../src/generated/prisma"
+  previewFeatures = ["driverAdapters"]
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+enum Role {
+  user
+  admin
+}
+
+enum SubscriptionStatus {
+  active
+  unactive
+}
+
+model User {
+  id        Int      @id @default(autoincrement())
+
+  full_name String?
+  email     String   @unique
+  password  String
+  age       Int?
+
+  avatar    String   @default("https://images.unsplash.com/photo-1535615615570-3b839f4359be?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")
+
+  isPremium Boolean  @default(false)
+  lastLogin DateTime?
+  csp       String?
+  region    String?
+  country   String?
+  role      Role     @default(user)
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  subscription     Subscription?
+  barometerResults BarometerResult[]
+
+  @@map("users")
+}
+
+model Subscription {
+  id                     Int                @id @default(autoincrement())
+
+  price                  Float?
+  status                 SubscriptionStatus @default(active)
+  stripe_Subscription_Id String?
+
+  userId                 Int                @unique
+  user                   User               @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  createdAt              DateTime           @default(now())
+  updatedAt              DateTime           @updatedAt
+
+  @@map("subscriptions")
+}
+
+model BarometerResult {
+  id                Int      @id @default(autoincrement())
+
+  quizType          String   @default("free")
+  language          String   @default("en")
+
+  answers           Int[]
+  pillarResults     Json     @default("[]")
+
+  globalEgoPercent  Float?
+  globalLovePercent Float?
+  globalProfile     String?
+
+  userId            Int?
+  user              User?    @relation(fields: [userId], references: [id], onDelete: SetNull)
+
+  createdAt         DateTime @default(now())
+  updatedAt         DateTime @updatedAt
+
+  @@map("barometer_results")
+}
+
+enum QuizType {
+  free
+  premium
+}
+
+model QuizQuestion {
+  id Int @id @default(autoincrement())
+
+  quizType QuizType @default(free)
+
+  langue             String  @default("FR")
+  persona            String  @default("All")
+  pilier_id          Int
+  pilier_nom         String
+  pilier_emoji       String
+  poids_pilier       Float   @default(1.0)
+  pilier_description String?
+
+  question_id                String
+  correspondance_label       String?
+  correspondance_description String?
+
+  
+  question  String
+  reponse_a String
+  reponse_b String
+  reponse_c String
+  reponse_d String
+  poids_question Float @default(1.0)
+
+  
+  question_en  String?
+  reponse_a_en String?
+  reponse_b_en String?
+  reponse_c_en String?
+  reponse_d_en String?
+
+ 
+  question_es  String?
+  reponse_a_es String?
+  reponse_b_es String?
+  reponse_c_es String?
+  reponse_d_es String?
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@unique([quizType, question_id, langue])
+  @@map("quiz_questions")
+}

@@ -1,0 +1,218 @@
+{
+  "nav": {
+    "start": "Start",
+    "login": "Login",
+    "register": "Register",
+    "logout": "Logout",
+    "profile": "Profile"
+  },
+  "home": {
+    "badge": "🧬 Based on adaptive neuroscience",
+    "headline": "Discover your spectrum",
+    "subline": "A questionnaire that doesn't judge — it reveals. 9 fundamental pillars for a precise inner portrait.",
+    "cta": "🚀 Take the free test",
+    "sub": "✨ 45 questions · ~5 minutes · Instant results",
+    "stats": {
+      "pillars": "Pillars analyzed",
+      "questions": "Questions",
+      "avatars": "Avatars"
+    }
+  },
+  "profile": {
+    "yourAvatar": "Your Avatar",
+    "activity": "Activity",
+    "pillarHighlights": "Pillar Highlights",
+    "quickActions": "Quick Actions",
+    "freePlan": "Free Plan",
+    "signOut": "Sign out",
+    "strongest": "💚 Strongest",
+    "toDevelop": "🔧 To Develop",
+    "retakeQuiz": "Retake Free Quiz",
+    "viewResults": "View Free Results",
+    "premiumQuiz": "Premium Quiz",
+    "unlockPremium": "Unlock Premium",
+    "premiumReport": "Premium Report",
+    "subscription": "Subscription",
+    "yearsOld": "years old",
+    "yes": "Yes",
+    "no": "No",
+    "freeQuestionsCount": "45 questions · ~5 min",
+    "latestFreeTest": "Your latest free test",
+    "deepQuestions": "198 deep questions",
+    "seePlans": "From €1.99 · See plans →",
+    "fullAnalysis": "Your full analysis",
+    "managePlan": "Manage your plan",
+    "viewPlans": "View plans & pricing",
+    "editProfile": "Edit Profile",
+    "editButton": "Edit Profile",
+    "cancel": "Cancel",
+    "profilePicture": "Profile Picture",
+    "emailLabel": "Email",
+    "newPassword": "Password",
+    "passwordPlaceholder": "Enter new password…",
+    "saveChanges": "Save Changes",
+    "saving": "Saving…",
+    "saveSuccess": "Profile updated!",
+    "freeQuestions": "Free Questions",
+    "pillarsExplored": "Pillars Explored",
+    "deepQuestions": "198 deep questions",
+    "seePlans": "From €1.99 · See plans →",
+    "fullAnalysis": "Your full analysis",
+    "managePlan": "Manage your plan",
+    "viewPlans": "View plans & pricing"
+  },
+  "login": {
+    "title": "Welcome back",
+    "subtitle": "Sign in to access your results",
+    "email": "Email address",
+    "password": "Password",
+    "submit": "Sign in",
+    "noAccount": "No account?",
+    "register": "Register",
+    "or": "or"
+  },
+  "register": {
+    "title": "Create account",
+    "subtitle": "Join thousands discovering themselves",
+    "name": "Full name",
+    "email": "Email address",
+    "password": "Password",
+    "submit": "Create account",
+    "haveAccount": "Already have an account?",
+    "login": "Sign in",
+    "privacy": "🔒 Your data stays private"
+  },
+  "onboard": {
+    "title": "Welcome!",
+    "subtitle": "Before we begin, tell us a bit about yourself.",
+    "name": "Your first name",
+    "namePlaceholder": "E.g. Sophie",
+    "age": "Your age",
+    "agePlaceholder": "E.g. 32",
+    "submit": "Start the test →",
+    "privacy": "🔒 Your data stays private",
+    "email": "Your email address",
+    "emailPlaceholder": "you@example.com",
+    "optional": "optional",
+    "consentEmail": "I want to receive my report by email",
+    "consentEmailDesc": "Your results will be sent directly to your inbox.",
+    "consentContact": "I agree to be contacted only by this service",
+    "consentContactDesc": "No spam. Only relevant updates from EgoXLove.",
+    "emailRequired": "Please enter your email address.",
+    "consentRequired": "Please accept both checkboxes to continue."
+  },
+  "quiz": {
+    "prev": "← Previous",
+    "next": "Next →",
+    "finish": "See results →",
+    "question": "Question",
+    "of": "of",
+    "free": "FREE",
+    "premium": "PREMIUM",
+    "options": {
+      "notAtAll": "Not at all",
+      "alittle": "A little",
+      "moderately": "Moderately",
+      "alot": "A lot",
+      "totally": "Totally"
+    }
+  },
+  "results": {
+    "title": "Your EGO vs LOVE Diagnosis",
+    "ego": "🟡 EGO",
+    "love": "💜 LOVE",
+    "pillarsTitle": "📊 Pillar Analysis",
+    "upsell": {
+      "title": "⭐ Detailed Premium Report",
+      "desc": "198 in-depth questions · Personalized quotes · Recommendations · 30-day action plan",
+      "feature1": "✅ 9-pillar analysis",
+      "feature2": "✅ 27 quotes",
+      "feature3": "✅ Action plan",
+      "feature4": "✅ PDF report",
+      "cta": "Unlock — €1.99"
+    },
+    "popup": {
+      "title": "Receive Your Report",
+      "desc": "Enter your email to receive your free results report.",
+      "consent": "I wish to receive the report by email and agree to be contacted exclusively by this service.",
+      "send": "📧 Send My Report",
+      "sending": "Sending…",
+      "continue": "Continue viewing results →"
+    },
+    "emailSent": "Report will be sent to"
+  },
+  "pillars": {
+    "1": { "icon": "🧭", "name": "Alignment",      "theme": "Alignment between thought, word and action" },
+    "2": { "icon": "🎭", "name": "Authenticity",    "theme": "The courage to be yourself" },
+    "3": { "icon": "❤️", "name": "Heart vs Ego",    "theme": "Giving without expecting anything in return" },
+    "4": { "icon": "🤝", "name": "Union",            "theme": "Ho'oponopono: forgiveness and love" },
+    "5": { "icon": "🧘", "name": "Consciousness",   "theme": "Science with consciousness" },
+    "6": { "icon": "🎁", "name": "Generosity",      "theme": "Giving more than receiving" },
+    "7": { "icon": "🙏", "name": "Gratitude",       "theme": "The memory of the heart" },
+    "8": { "icon": "🦉", "name": "Wisdom",           "theme": "Knowing that we don't know" },
+    "9": { "icon": "☮️", "name": "Peace",            "theme": "Peace begins with a smile" }
+  },
+  "avatars": {
+    "awakened": {
+      "icon": "💎",
+      "name": "THE AWAKENED BEING",
+      "range": "EGO < 30% · LOVE > 70%",
+      "desc": "You live in deep alignment with your essence. Your actions are guided by unconditional love, awakened consciousness and inner coherence. You are a source of inspiration for those around you.",
+      "quote": "\"Be the light you wish to see in the world.\" — Gandhi"
+    },
+    "awakening": {
+      "icon": "🌱",
+      "name": "THE AWAKENING BEING",
+      "range": "EGO 30–50% · LOVE 50–70%",
+      "desc": "Your heart guides your steps but ego still intervenes at times. You are on the path of inner awakening with growing awareness. Your areas of tension are your most beautiful growth grounds.",
+      "quote": "\"Growth is uncomfortable. That's where the magic happens.\" — Anonymous"
+    },
+    "tension": {
+      "icon": "⚡",
+      "name": "THE BEING IN TENSION",
+      "range": "EGO 50–70% · LOVE 30–50%",
+      "desc": "You feel an inner tension between your protective ego and your deep aspiration for love and authenticity. This pull is a strong signal: it's time to go inward to choose consciously.",
+      "quote": "\"Between stimulus and response there is a space. In that space lies our freedom.\" — V. Frankl"
+    },
+    "dominant": {
+      "icon": "🔥",
+      "name": "THE DOMINANT EGO",
+      "range": "EGO > 70% · LOVE < 30%",
+      "desc": "The ego occupies a large place in your life. Your fears, defenses and need for control color your relationships and choices. This is not a judgment — it is an invitation to approach yourself with kindness and courage.",
+      "quote": "\"What you refuse to see in yourself, life will keep showing you.\" — Carl Jung"
+    }
+  },
+  "premium": {
+    "reportTitle": "Premium Report",
+    "reportSubtitle": "Detailed analysis · 9 pillars · Personalized recommendations",
+    "pillarAnalysis": "📊 Pillar Analysis",
+    "priorities": "🎯 Your 3 Development Priorities",
+    "actionPlan": "📅 30-Day Action Plan",
+    "daily": "🌅 Daily",
+    "weekly": "📆 Weekly",
+    "monthly": "🗓️ Monthly",
+    "levels": {
+      "strong": "🟢 STRONG",
+      "medium": "🟡 DEVELOPING",
+      "weak": "🔴 TO WORK ON"
+    },
+    "actionItems": {
+      "daily1": "🌅 Morning: 3 gratitudes in your journal",
+      "daily2": "🧘 5 min conscious breathing before starting your day",
+      "daily3": "🌙 Evening: identify 1 moment of alignment today",
+      "weekly1": "📓 Review your journal — spot recurring patterns",
+      "weekly2": "💬 Have one authentic conversation you've been avoiding",
+      "weekly3": "🎁 One anonymous act of generosity",
+      "monthly1": "📊 Re-read your EgoXLove report and measure your evolution",
+      "monthly2": "🎯 Set one intention per pillar to develop",
+      "monthly3": "🤝 Share your progress with a trusted person"
+    }
+  },
+  "footer": "© 2026 EgoXLove — All rights reserved",
+  "sections": {
+    "A": "Origins",
+    "B": "Reactions",
+    "C": "Capacity to Change",
+    "D": "Impacts on Your Life"
+  }
+}
