@@ -83,6 +83,7 @@ export function AppProvider({ children }: { children: ReactNode }) {
 
   const login = (userData: User) => {
     setUser(userData);
+   
     localStorage.setItem('user', JSON.stringify(userData));
     if (userData.token) localStorage.setItem('token', userData.token);
   };

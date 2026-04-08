@@ -7,7 +7,10 @@ import { verifyToken, getTokenFromRequest } from '@/lib/auth'
 
 export async function PUT(req: Request) {
   try {
+    console.log("HEY")
     const token = getTokenFromRequest(req)
+    const auth = req.headers.get('authorization')
+    console.log("AUTH HEADER:", auth)
     if (!token) {
       return NextResponse.json({ message: 'Unauthorized' }, { status: 401 })
     }
@@ -57,6 +60,7 @@ export async function PUT(req: Request) {
 
     return NextResponse.json({ message: 'User updated successfully', user: updatedUser })
   } catch (error: any) {
+    console.log(error.message)
     return NextResponse.json({ message: 'Server error', error: error.message }, { status: 500 })
   }
 }

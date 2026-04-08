@@ -42,7 +42,7 @@ export default function FreeResultsPage() {
     setShowPopup(false);
     try {
       const canvas = await html2canvas(reportRef.current, {
-        scale: 2,
+        scale: 1,
         useCORS: true,
         scrollY: -window.scrollY,
         windowWidth: reportRef.current.scrollWidth,
@@ -50,7 +50,7 @@ export default function FreeResultsPage() {
         ignoreElements: (el) => el.classList.contains('no-print'),
       });
 
-      const imgData = canvas.toDataURL('image/png');
+      const imgData = canvas.toDataURL('image/jpeg', 0.6);
       const pdf = new jsPDF('p', 'mm', 'a4');
       const pageWidth = pdf.internal.pageSize.getWidth();
       const pageHeightA4 = pdf.internal.pageSize.getHeight();
@@ -82,7 +82,7 @@ export default function FreeResultsPage() {
       let pdfBase64 = null;
 
       const canvas = await html2canvas(reportRef.current, {
-        scale: 2,
+        scale: 1,
         useCORS: true,
         scrollY: -window.scrollY,
         windowWidth: reportRef.current.scrollWidth,
@@ -90,7 +90,7 @@ export default function FreeResultsPage() {
         ignoreElements: (el) => el.classList.contains('no-print'),
       });
 
-      const imgData = canvas.toDataURL('image/png');
+      const imgData = canvas.toDataURL('image/jpeg', 0.6);
       const pdf = new jsPDF('p', 'mm', 'a4');
       const pageWidth = pdf.internal.pageSize.getWidth();
       const pageHeightA4 = pdf.internal.pageSize.getHeight();

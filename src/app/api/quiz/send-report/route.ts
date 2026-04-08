@@ -11,8 +11,14 @@ export async function POST(req: Request) {
     }
 
     const decoded = verifyToken(token)
+    const body = await req.json()
+    const { email, results, pdfBase64 } = body
 
-    const { email, results, pdfBase64 } = await req.json()
+  
+    const bodySize = JSON.stringify(body).length
+    console.log('Body size (bytes):', bodySize)
+    console.log('Body size (MB):', (bodySize / 1024 / 1024).toFixed(2) + 'MB')
+    console.log('pdfBase64 size (MB):', pdfBase64 ? (pdfBase64.length / 1024 / 1024).toFixed(2) + 'MB' : 'none')
 
     if (!email || !results) {
       return NextResponse.json(

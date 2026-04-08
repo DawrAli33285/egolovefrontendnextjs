@@ -13,7 +13,7 @@ export function middleware(req: NextRequest) {
     return NextResponse.next();
   }
 
-  // Just check cookie exists — full verification happens in the page/route
+  
   const cookie = req.cookies.get('admin_session');
   if (!cookie?.value) {
     const loginUrl = new URL('/admin/login', req.url);
