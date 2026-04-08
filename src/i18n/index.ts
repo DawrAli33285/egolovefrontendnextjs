@@ -13,8 +13,8 @@ if (!i18n.isInitialized) {
         es: { translation: es },
         fr: { translation: fr },
       },
-      lng: 'en',
-      fallbackLng: 'en',
+      lng: 'fr',
+      fallbackLng: 'fr',
       interpolation: { escapeValue: false },
       react: { useSuspense: false },
     });

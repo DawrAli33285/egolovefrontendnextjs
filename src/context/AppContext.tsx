@@ -1,6 +1,7 @@
 'use client';
 
 import { createContext, useContext, useState, useEffect, ReactNode } from 'react';
+import { usePathname } from 'next/navigation';
 import axios from 'axios';
 import { BASE_URL } from '../lib/base';
 
@@ -62,8 +63,10 @@ export function AppProvider({ children }: { children: ReactNode }) {
   const [plan, setPlan] = useState<string | null>(null);
   const [freeResults, setFreeResults] = useState<QuizResults | null>(null);
   const [premiumResults, setPremiumResults] = useState<QuizResults | null>(null);
-
+  const pathname = usePathname();
   useEffect(() => {
+    if (pathname.startsWith('/admin')) return; 
+  
     const token = localStorage.getItem('token');
     if (!token) return;
     axios.get(`${BASE_URL}/users/getUser`, {
@@ -76,7 +79,7 @@ export function AppProvider({ children }: { children: ReactNode }) {
     }).catch((err) => {
       console.log('getUser failed:', err.response?.status, err.message);
     });
-  }, []);
+  }, [pathname]);
 
   const login = (userData: User) => {
     setUser(userData);
